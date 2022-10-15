@@ -1,0 +1,14 @@
+window.onload= () => {
+    b = true;
+    let boundary = document.querySelectorAll("#maze .boundary");
+    
+    boundary.forEach((e1)=>{
+        e1.addEventListener("mouseover", ()=> {
+            boundary.forEach((e1)=>{
+        e1.style.backgroundColor="red";
+    });
+    b = false;
+});
+});
+    
+    };
